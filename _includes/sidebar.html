@@ -12,5 +12,14 @@
 </div>
 
 <div class="sidebar well">
+    <h1>My Interests</h1>
+    <ul>
+        {% for interest in site.interests limit:5 %}
+          <li><a href="{{ interest.baseurl }}{{ interest.url }}">{{ interest.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="sidebar well">
 {% include links-list.html %}
 </div>
