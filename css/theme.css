@@ -49,3 +49,9 @@ body {
 .author a {
     color: #ee4444;
 }
+
+.well2 {
+    margin-left: 10%;
+    width: 100%;
+    float: left;
+}
