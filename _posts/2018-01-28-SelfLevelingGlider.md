@@ -3,6 +3,7 @@ layout: post
 title: "Self-Leveling Glider - Controls Project"
 date: 2017-11-01
 comments: true
+youtubeId: "f1AE9T4lfGI"
 ---
 
 ****
@@ -49,5 +50,5 @@ Finally, the PID controller needed to be tuned, or given the proper gain values,
 However, theory does not always match reality. So the gains were initially set to these values shown above, but this produced poor results. The PID gains were instead tuned experimentally, by changing each gain individually by small increments until the desired result was obtained. You can see the final results on youtube:
 
 <br>
-<center>{% include youtubePlayer.html id=f1AE9T4lfGI %}</center>
+<center>{% include youtubePlayer.html id=page.youtubeId %}</center>
 <br>
