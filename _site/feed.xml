@@ -7,19 +7,8 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>First Post</title>
-				<description>&lt;p&gt;Omar blah blah&lt;/p&gt;
-</description>
-				<pubDate>Thu, 25 Jan 2018 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/2018/01/First</link>
-				<guid isPermaLink="true">http://localhost:4000/2018/01/First</guid>
-			</item>
-		
-			<item>
 				<title>Self-Leveling Glider - Controls Project</title>
-				<description>&lt;hr /&gt;
-
-&lt;!-- Glider image will go here --&gt;
+				<description>&lt;!-- Glider image will go here --&gt;
 &lt;p&gt;&lt;img src=&quot;/images/glider.jpg&quot; alt=&quot;Glider&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -71,16 +60,97 @@
 		
 			<item>
 				<title>Ignition State Machine - Uottawa Rocketry</title>
-				<description>
+				<description>&lt;p&gt;For two semesters I joined the uOttawa Rocketry team and I was able to participate in various aspects of the rocket’s design. Our goal was to build a hybrid rocket (liquid oxidizer, solid fuel) that would achieve a target apogee of 10,000ft, as part of the Intercollegiate Rocket Engineering Competition.&lt;/p&gt;
+
+&lt;p&gt;I designed and wrote the software for the ignition system of the rocket. The system consisted of an igniter relay, control valve, microcontroller and wireless communication via a Xbee. To control the system from a safe distance I designed a state machine which used serial input to engage specific commands in the ignition sequence. The different states of the system are shown in the table below.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;/center&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;State&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Number&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Action&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;STOP&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Close the valve, turn the igniter relay off.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;IGNITE&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Turn the igniter relay on, starting the igniter.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;OPEN&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Keep the igniter relay on, open the valve, keep it open for 10 seconds&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;CLOSE&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Close the valve&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;WAIT&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Do nothing&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;PING&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Send &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;I AM ALIVE!&quot;&lt;/code&gt; to the base station over the radio&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The state machine ensures that an acceptable sequence of actions occurs no matter what command is given to the controller. These relationships are typically represented in a state transition map.&lt;/p&gt;
+
+&lt;!-- Insert picture of state map --&gt;
+
+&lt;p&gt;The tricky part for this program was to ensure that the system could be turned off at any moment. For a non-wireless system, this is a simple task. There exists a function, called the intercept function, which when called stops all other functions and runs parallel to the current program.  An intercept function could not be called in this case, because the pins on the controller that are used to communicate this call were already being used by the Xbee to wirelessly transmit our serial commands. Therefore, making use of the state machine, the solution was to poll the serial input frequently, so that if a ‘STOP’ command occured, the system would act immediately.&lt;/p&gt;
+
 </description>
-				<pubDate>Wed, 22 Feb 2017 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/2017/02/StateMachine</link>
-				<guid isPermaLink="true">http://localhost:4000/2017/02/StateMachine</guid>
+				<pubDate>Sat, 30 Sep 2017 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/2017/09/StateMachine</link>
+				<guid isPermaLink="true">http://localhost:4000/2017/09/StateMachine</guid>
 			</item>
 		
 			<item>
 				<title>Drawing Robot</title>
-				<description>
+				<description>&lt;p&gt;The drawing robot was a fun project that was mostly software based for me. It consisted of a two-dimensional plotter with a microcontroller connected to stepper motors like a 3d printer. The stepper motors drove belts that connected to a cartdridge that held the pen.&lt;/p&gt;
+
+&lt;p&gt;I was tasked with creating a program that the controller in the robot could use to make interesting images. I decided to write a program that converted digital images into the same image but represented by continuous squiggly lines, which could easily be traced out by the robot.&lt;/p&gt;
+
+&lt;p&gt;The squiggly lines were generated by a sine function with variable amplitude and frequency. The algorithm scanned the jpg image by a certain number of pixels per increment and based on the brightness of those pixels, a corresponding amplitude and frequency was generated for the sine function. This produced quite beautiful images and allowed the robot to move the pen with a minimum amount of lifting-off the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;!-- Rachel Carson image will go here --&gt;
+&lt;img src=&quot;/images/rachelCarson.png&quot; alt=&quot;RachelCarson&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For the electronics, an arduino uno was used with a CNC shield and drivers for the stepper motors. In order to configure the stepper motors, the potentiometers on the drivers had to be adjusted so as to set the current limit on the stepper motors. This ensures that the torque caused by these motors does not exceed the rated value.&lt;/p&gt;
 </description>
 				<pubDate>Fri, 22 Jan 2016 00:00:00 -0500</pubDate>
 				<link>http://localhost:4000/2016/01/drawingRobot</link>
@@ -97,16 +167,12 @@
 			</item>
 		
 			<item>
-				<title>Vivamus porttitor porta tortor</title>
-				<description>&lt;p&gt;Vivamus porttitor porta tortor at ullamcorper. Proin vel nisi magna. Vivamus vel velit laoreet, malesuada nunc nec, pulvinar velit. Vivamus sollicitudin ex quam, sit amet aliquet velit euismod in. Etiam rutrum augue orci, sed euismod risus vehicula eu. Proin quis velit mattis, sodales erat vitae, condimentum nulla. Vestibulum vitae imperdiet ligula. Etiam venenatis ultrices varius.&lt;/p&gt;
-
-&lt;p&gt;Vestibulum vulputate nulla hendrerit velit tempor, et fringilla urna placerat. In hac habitasse platea dictumst. Vestibulum sit amet molestie tortor, eu posuere magna. Donec rhoncus pharetra urna sed tempor. Aliquam erat volutpat. Nulla facilisi. Nam at ante condimentum, egestas massa sed, auctor orci. Aenean tincidunt, turpis et venenatis finibus, orci urna tempor ex, at mattis nisi nisi varius nisl. Pellentesque diam libero, dignissim vel nisl ut, placerat pharetra felis.&lt;/p&gt;
-
-&lt;p&gt;Curabitur venenatis neque eget odio tempor, vitae condimentum quam aliquam. Duis dui odio, auctor non ultricies nec, mollis nec elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eget elit at nisl auctor egestas. Vivamus nec turpis feugiat, dapibus metus et, fermentum lacus. Curabitur at blandit diam, non rutrum nulla. Quisque eget fermentum libero, in bibendum diam. Vestibulum eget porta est, in scelerisque metus. Donec in elit aliquet sapien ultrices tincidunt.&lt;/p&gt;
+				<title>First Post</title>
+				<description>&lt;p&gt;Quick tutorial on how to build a site like this will be posted shortly…&lt;/p&gt;
 </description>
-				<pubDate>Tue, 22 May 2012 16:25:06 -0700</pubDate>
-				<link>http://localhost:4000/2012/05/Vivamus-porttitor-porta-tortor</link>
-				<guid isPermaLink="true">http://localhost:4000/2012/05/Vivamus-porttitor-porta-tortor</guid>
+				<pubDate>Wed, 14 Mar 2012 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/2012/03/First</link>
+				<guid isPermaLink="true">http://localhost:4000/2012/03/First</guid>
 			</item>
 		
 	</channel>

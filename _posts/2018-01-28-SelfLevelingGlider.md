@@ -6,8 +6,6 @@ comments: true
 youtubeId: "f1AE9T4lfGI"
 ---
 
-****
-
 <!-- Glider image will go here -->
 ![Glider](/images/glider.jpg){:class="img-responsive"}
 
