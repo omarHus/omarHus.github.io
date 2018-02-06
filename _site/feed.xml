@@ -50,7 +50,7 @@
 &lt;p&gt;However, theory does not always match reality. So the gains were initially set to these values shown above, but this produced poor results. The PID gains were instead tuned experimentally, by changing each gain individually by small increments until the desired result was obtained. You can see the final results on youtube:&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f1AE9T4lfGI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+&lt;center&gt;&lt;iframe width=&quot;100%&quot; height=&quot;400px&quot; src=&quot;https://www.youtube.com/embed/f1AE9T4lfGI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 01 Nov 2017 00:00:00 -0400</pubDate>
@@ -139,7 +139,11 @@
 		
 			<item>
 				<title>Drawing Robot</title>
-				<description>&lt;p&gt;The drawing robot was a fun project that was mostly software based for me. It consisted of a two-dimensional plotter with a microcontroller connected to stepper motors like a 3d printer. The stepper motors drove belts that connected to a cartdridge that held the pen.&lt;/p&gt;
+				<description>&lt;p&gt;&lt;img src=&quot;/images/axidraw.jpeg&quot; alt=&quot;Plotter&quot; class=&quot;img-responsive center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The drawing robot was a fun project that was mostly software based for me. It consisted of a two-dimensional plotter with a microcontroller connected to stepper motors like a 3d printer. The stepper motors drove belts that connected to a cartdridge that held the pen.&lt;/p&gt;
 
 &lt;p&gt;I was tasked with creating a program that the controller in the robot could use to make interesting images. I decided to write a program that converted digital images into the same image but represented by continuous squiggly lines, which could easily be traced out by the robot.&lt;/p&gt;
 

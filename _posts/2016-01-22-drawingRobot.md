@@ -5,6 +5,10 @@ date: 2016-01-22
 comments: true
 ---
 
+![Plotter](/images/axidraw.jpeg){:class="img-responsive"}{: .center-image }
+
+<br>
+
 The drawing robot was a fun project that was mostly software based for me. It consisted of a two-dimensional plotter with a microcontroller connected to stepper motors like a 3d printer. The stepper motors drove belts that connected to a cartdridge that held the pen. 
 
 I was tasked with creating a program that the controller in the robot could use to make interesting images. I decided to write a program that converted digital images into the same image but represented by continuous squiggly lines, which could easily be traced out by the robot.
