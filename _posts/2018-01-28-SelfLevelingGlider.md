@@ -7,7 +7,7 @@ youtubeId: "f1AE9T4lfGI"
 ---
 
 <!-- Glider image will go here -->
-![Glider](/images/glider.png){:class="img-responsive"}
+![Glider](/images/glider.jpg){:class="img-responsive"}
 
 <br>
 
