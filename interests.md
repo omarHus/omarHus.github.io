@@ -41,7 +41,6 @@ Fantasies, what can they be?
 
 {: style="text-align:center"} 
 An Existential Love
--------------------
 
 <a href="https://graphitepublications.com/poetry-an-existential-love/">
 
@@ -51,7 +50,6 @@ An Existential Love
 
 {: style="text-align:center"}
 Winter's Horrid Fate
---------------------
 
 <center><a href="https://graphitepublications.com/poetry-winters-horrid-fate/"><img src="/assets/images/WinterFate.jpg" alt="Poem Picture" style="width:50%; height:50%"></a></center>
 
@@ -59,8 +57,13 @@ Winter's Horrid Fate
 <center><h2>My Drawings</h2></center>
 
 <center>
-<img src="/assets/images/D1_sailor.jpeg" alt="D1" style="width:50%">
-<img src="/assets/images/D2_mimi.jpeg" alt="D2" style="width:50%">
-<img src="/assets/images/D3.jpeg" alt="D3" style="width:50%">
-<img src="/assets/images/D4.jpeg" alt="D4" style="width:50%">
+<img src="/assets/images/D1_sailor.jpeg" alt="D1" style="width:75%">
+<img src="/assets/images/D2_mimi.jpeg" alt="D2" style="width:75%">
+<img src="/assets/images/D3.jpeg" alt="D3" style="width:75%">
+<img src="/assets/images/D4.jpeg" alt="D4" style="width:75%">
+</center>
+
+<br>
+<center><h2>Flying</h2>
+<img src="/assets/images/flying.jpg" alt="flying" style="width:100%">
 </center>

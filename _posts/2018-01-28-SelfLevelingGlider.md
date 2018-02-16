@@ -4,6 +4,7 @@ title: "Self-Leveling Glider - Controls Project"
 date: 2017-11-01
 comments: true
 youtubeId: "f1AE9T4lfGI"
+cover-photo: "/assets/images/Glidercircuit.png"
 ---
 
 <!-- Glider image will go here -->
