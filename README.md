@@ -1,2 +1,1 @@
-Website template originally forked from:
-https://github.com/scotte/jekyll-clean
+# Originally Forked from https://chrisbobbe.github.io/
