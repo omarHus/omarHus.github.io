@@ -7,7 +7,7 @@ youtubeId: "f1AE9T4lfGI"
 ---
 
 <!-- Glider image will go here -->
-![Glider](/images/glider.jpg){:class="img-responsive"}
+![Glider](/assets/images/glider.jpg){:class="image featured"}
 
 <br>
 
@@ -20,7 +20,7 @@ This project presented both software and electrical design decisions. In order t
 <br>
 
 <!-- Circuit image will go here -->
-![Circuit](/images/Glidercircuit.png){:class="img-responsive"}
+![Circuit](/assets/images/Glidercircuit.png){:class="image featured"}
 <center>Fig. 1: Circuit Layout</center>
 
 <br>
@@ -30,7 +30,7 @@ With the electronics sorted, the next step was to code the controller. An arduin
 <br>
 
 <!-- Real Circuit image will go here -->
-![Circuit](/images/circuit.jpg){:class="img-responsive"}
+![Circuit](/assets/images/circuit.jpg){:class="image featured"}
 <center>Fig. 2: Controller Circuit Board Soldered</center>
 
 <br>
@@ -40,7 +40,7 @@ Finally, the PID controller needed to be tuned, or given the proper gain values,
 <br>
 
 <!-- Matlab image will go here -->
-![Matlab](/images/matlab.png){:class="img-responsive"}
+![Matlab](/assets/images/matlab.png){:class="image featured"}
 <center>Fig. 3: Matlab PID Tuner Results</center>
 
 <br>

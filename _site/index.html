@@ -44,9 +44,11 @@
             <span class="icon fa-home">Home</span>
           </a></li><li><a href="http://localhost:4000/blog.html" id="new-posts-link">
             <span class="icon fa-pencil">New Posts</span>
+          </a></li><li><a href="http://localhost:4000/interests.html" id="interests-link">
+            <span class="icon fa-book">Interests</span>
           </a></li><li><a href="http://localhost:4000/reading-list.html" id="reading-list-link">
             <span class="icon fa-book">Reading List</span>
-          </a></li><hr><li><a href="#intro" id="intro-link" class="scrolly"><span class="icon fa-comment">Intro</span></a></li><li><a href="#portfolio" id="portfolio-link" class="scrolly"><span class="icon fa-th">Portfolio</span></a></li><li><a href="#about-me" id="about-me-link" class="scrolly"><span class="icon fa-user">About Me</span></a></li><li><a href="#contact" id="contact-link" class="scrolly"><span class="icon fa-envelope">Contact</span></a></li><li><a href="#welcome-to-jekyll" id="welcome-to-jekyll-link" class="scrolly"><span class="icon fa-check">Welcome to Jekyll!</span></a></li></ul>
+          </a></li><hr><li><a href="#intro" id="intro-link" class="scrolly"><span class="icon fa-comment">Intro</span></a></li><li><a href="#portfolio" id="portfolio-link" class="scrolly"><span class="icon fa-th">Portfolio</span></a></li><li><a href="#about-me" id="about-me-link" class="scrolly"><span class="icon fa-user">About Me</span></a></li><li><a href="#my-cv" id="my-cv-link" class="scrolly"><span class="icon fa-user">My CV</span></a></li><li><a href="#contact" id="contact-link" class="scrolly"><span class="icon fa-envelope">Contact</span></a></li></ul>
 </nav></div>
   <div class="bottom"><!-- Social Icons -->
 <ul class="icons"><li><a href="omarhus.github.io" class="icon fa-github"><span class="label">GitHub</span></a></li><li><a href="mailto:omar.husain2@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li></ul>
@@ -66,17 +68,16 @@
 <section id="portfolio" class="shade-two">
   <div class="container"><header>
 			<h2>Portfolio</h2></header><p>The following is a collection of design projects that I have worked on in and out of school. The projects include a mix of software, electrical and mechanical designs.</p>
-
   <div class="row">
     <div class="4u 12u$(mobile)">
       <div class="item">
-        <a href="#" class="image fit"><img src="/assets/images/glider.jpg" alt="glider" /></a>
+        <a href="/2017/11/01/SelfLevelingGlider.html" class="image fit"><img src="/assets/images/glider.jpg" alt="glider" /></a>
         <header>
           <h3>Self-Leveling Glider</h3>
         </header>
       </div>
       <div class="item">
-        <a href="#" class="image fit"><img src="/assets/images/axidraw.jpeg" alt="axidraw" /></a>
+        <a href="/2016/01/22/drawingRobot.html" class="image fit"><img src="/assets/images/axidraw.jpeg" alt="axidraw" /></a>
         <header>
           <h3>Drawing Robot</h3>
         </header>
@@ -84,13 +85,13 @@
     </div>
     <div class="4u 12u$(mobile)">
       <div class="item">
-        <a href="#" class="image fit"><img src="/assets/images/pic04.jpg" alt="rocket" /></a>
+        <a href="/2017/09/30/StateMachine.html" class="image fit"><img src="/assets/images/rocket.jpg" alt="rocket" /></a>
         <header>
           <h3>Ignition State Machine</h3>
         </header>
       </div>
       <div class="item">
-        <a href="#" class="image fit"><img src="/assets/images/pic05.jpg" alt="Parachute folding Machine" /></a>
+        <a href="#" class="image fit"><img src="/assets/images/parachuteDesign.jpg" alt="Parachute folding Machine" /></a>
         <header>
           <h3>Parachute Folding Machine</h3>
         </header>
@@ -101,7 +102,7 @@
 </section>
 <section id="about-me" class="shade-three">
   <div class="container"><header>
-			<h2>About Me</h2></header><a href="#" class="image featured"><img src="assets/images/about.jpg" alt="" /></a>
+			<h2>About Me</h2></header><center><a href="#" class="image featured"><img src="assets/images/about.jpg" alt="Me" style="width:60%" /></a></center>
 
 <p>I am a Mechanical Engineering Student at the University of Ottawa, Canada. Diverse, would be the best way to describe me. I am of Moroccan, Indian, and German descent, and I have lived in six countries. My educational background is equally diverse, before pursuing my current degree I received a B.A. in Philosophy from McGill University.</p>
 <p>The great polymaths of history are my idols, and as such, I strive to be excellent in many different activities. I am always engaged in learning new things. And I believe that having a diversity of perspective is essential to creating innovative solutions. Hoping to engage in engineering projects that will bring more integrity to our everyday lives. Interested particularly in aerospace, AI, and cutting edge technologies. I am actively looking for internship opportunities.</p>
@@ -111,12 +112,14 @@
 </p>
 </div>
 </section>
-<section id="contact" class="shade-four">
+<section id="my-cv" class="shade-four">
   <div class="container"><header>
-			<h2>Contact</h2></header><p>Elementum sem parturient nulla quam placerat viverra
-mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+			<h2>My CV</h2></header><img class="image featured" src="/assets/images/CV.png" alt="My CV">
+</div>
+</section>
+<section id="contact" class="shade-three">
+  <div class="container"><header>
+			<h2>Contact</h2></header><p>Thank you for reaching out. I would be more than happy to respond to any questions you may have.</p>
 
 <form method="post" action="https://formspree.io/omar.husain2@gmail.com">
   <div class="row">
@@ -130,15 +133,6 @@ orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
     </div>
   </div>
 </form>
-</div>
-</section>
-<section id="welcome-to-jekyll" class="shade-three">
-  <div class="container"><header>
-			<h2>Welcome to Jekyll!</h2></header><p>This Jekyll theme lets you build as many of these sections as you want. They live in the _sections folder in your project’s root directory. For some examples, see the <a href="https://github.com/chrisbobbe/jekyll-theme-prologue">GitHub repository</a>. Just be sure to add some <a href="https://jekyllrb.com/docs/frontmatter/">frontmatter</a> to each section.</p>
-
-<p>All sections have titles, which are listed in the site’s navigation menu. At the top of each section, the section’s title will render by default (e.g., Welcome to Jekyll!). If you want it to show something different (see Intro), add <strong>auto-header: none</strong> to your frontmatter, and add your text in a &lt;h2&gt; tag inside a &lt;header&gt; tag outside the frontmatter. You’ll want to give each section an <strong>order</strong> parameter, also in the frontmatter, or it won’t know where to put itself and will hide. Icons are from <a href="http://fontawesome.io/icons/">Font Awesome</a>.</p>
-
-<p>You may notice that this section is written in Markdown – either Markdown or html works!</p>
 </div>
 </section>
 </div><!-- Footer -->
