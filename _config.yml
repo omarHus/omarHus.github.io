@@ -1,44 +1,44 @@
-# Jekyll configuration
+#
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-name: Omar Husain
-description: My Portfolio
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Omar Jahan Ali Husain
+subtitle: Design Portfolio
+description: >- # this means to ignore newlines until "baseurl:"
+  This is a design portfolio to showcase my engineering design projects.
+author: Omar Jahan Ali Husain
+email: omar.husain2@gmail.com
+avatar: 
 
-# url is currently only used only for the RSS feed in feed.xml
-url: https://github.com/omarHus/omarHus.github.io
+# You'll want to customize url and baseurl for your own site:
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 
-# baseurl will often be '', but for a project page on gh-pages, it needs to
-# be the project name.
-# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
-#     run it like so: jekyll serve --baseurl=''
-baseurl: ''
+# Social settings
+facebook_url:
+github_url: omarhus.github.io
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url:
 
-# This can be '' to hide the Github nav button
-github: 'omarHus/omarHus.github.io'
+# Google Analytics Tracking ID goes here:
+google_analytics:
 
-# Set this to your UA-# value, or '' to disable the block completely
-gaaccount: ''
-
-# The 'comments' setting enables comments. You'll need to select either
-# disqus or isso below to choose a comment system. Individual posts can
-# override 'comments' to disable on a post-by-post basis.
-comments: true
-
-# Set this to your public isso URL to enable comments via isso. Set to '' to disable isso.
-isso: ''
-
-# Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
-disqus: ''
-
-permalink: /:year/:month/:title
-paginate: 3
-
-highlighter: rouge
-markdown: kramdown
-gems: ['jekyll-paginate']
-
-collections:
-  interests:
-    output: true
-    permalink: /:collection/:path
-
-exclude: ['README.md', 'LICENSE']
+# The following settings are NECESSARY for the Prologue theme to run:
+theme: jekyll-theme-prologue
+collections: [sections]

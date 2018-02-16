@@ -1,115 +1,157 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Omar Husain</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/theme.css" rel="stylesheet" type="text/css">
-    <link href="/css/syntax.css" rel="stylesheet" type="text/css">
-    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+<html><head><!-- Robots -->
+  <meta name="robots" content="index, follow" /><link rel="canonical" href="http://localhost:4000/" /><!-- Title, description, author --><title>Home | Omar Jahan Ali Husain - Design Portfolio</title>
+  <meta name="description" content="This is a design portfolio to showcase my engineering design projects." />
+  <meta name="author" content="Omar Jahan Ali Husain" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Home | Omar Jahan Ali Husain - Design Portfolio" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="" />
+  <meta property="og:url" content="http://localhost:4000/" />
+  <meta property="og:site_name" content="Omar Jahan Ali Husain" />
+  <meta property="og:description" content="This is a design portfolio to showcase my engineering design projects." />
+  
+  <!-- Styles -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js" defer></script><![endif]-->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+  <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
 
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
+  <script src="/assets/js/jquery.scrolly.min.js" defer></script>
+  <script src="/assets/js/jquery.scrollzer.min.js" defer></script>
+  <script src="/assets/js/skel.min.js" defer></script>
+  <script src="/assets/js/util.js" defer></script>
+  <!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js" defer></script><![endif]-->
+  <script src="/assets/js/main.js" defer></script>
 
-</head>
+</head><body><!-- Header -->
+<div id="header">
+  <div class="top"><!-- Logo -->
+<div id="logo">
+  <a href="http://localhost:4000/" id="home-link">
+    <h1 id="title">Omar Jahan Ali Husain</h1>
+    <p>Design Portfolio</p>
+  </a>
+</div><!-- Nav -->
+<nav id="nav">
+  <ul><li><a href="#" id="home" class="active">
+            <span class="icon fa-home">Home</span>
+          </a></li><li><a href="http://localhost:4000/blog.html" id="new-posts-link">
+            <span class="icon fa-pencil">New Posts</span>
+          </a></li><li><a href="http://localhost:4000/reading-list.html" id="reading-list-link">
+            <span class="icon fa-book">Reading List</span>
+          </a></li><hr><li><a href="#intro" id="intro-link" class="scrolly"><span class="icon fa-comment">Intro</span></a></li><li><a href="#portfolio" id="portfolio-link" class="scrolly"><span class="icon fa-th">Portfolio</span></a></li><li><a href="#about-me" id="about-me-link" class="scrolly"><span class="icon fa-user">About Me</span></a></li><li><a href="#contact" id="contact-link" class="scrolly"><span class="icon fa-envelope">Contact</span></a></li><li><a href="#welcome-to-jekyll" id="welcome-to-jekyll-link" class="scrolly"><span class="icon fa-check">Welcome to Jekyll!</span></a></li></ul>
+</nav></div>
+  <div class="bottom"><!-- Social Icons -->
+<ul class="icons"><li><a href="omarhus.github.io" class="icon fa-github"><span class="label">GitHub</span></a></li><li><a href="mailto:omar.husain2@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li></ul>
+</div>
+</div>
+<!-- Main -->
+<div id="main"><!-- Sections --><section id="intro" class="shade-one cover dark">
+  <div class="container"><img src="/assets/images/me.jpg" alt="example cover photo" class="back"><header>
+  <h2 class="alt">Hi! I'm <strong>Omar Jahan Ali Husain</strong>, I'm a mechanical engineering student at the University of Ottawa.</h2>
+</header>
 
-<body>
+<footer>
+  <a href="#portfolio" class="button scrolly">View My Design Portfolio</a>
+</footer>
+</div>
+</section>
+<section id="portfolio" class="shade-two">
+  <div class="container"><header>
+			<h2>Portfolio</h2></header><p>The following is a collection of design projects that I have worked on in and out of school. The projects include a mix of software, electrical and mechanical designs.</p>
 
-<div class="container-fluid">
-    <div class="row-fluid">
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/">Omar Husain</a>
-              </div>
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li class="active"><a href="/archive.html">Portfolio</a></li>
-                    <li class="active"><a href="/interests.html">Interests</a></li>
-                    <li class="active visible-xs-block"><a href="/links.html">Links</a></li>
-                    <li class="active"><a href="/about.html">About</a></li>
-                    
-                      <li class="active"><a href="https://github.com/omarHus/omarHus.github.io">Github</a></li>
-                    
-                </ul>
-              </div>
-        </div>
+  <div class="row">
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        <a href="#" class="image fit"><img src="/assets/images/glider.jpg" alt="glider" /></a>
+        <header>
+          <h3>Self-Leveling Glider</h3>
+        </header>
+      </div>
+      <div class="item">
+        <a href="#" class="image fit"><img src="/assets/images/axidraw.jpeg" alt="axidraw" /></a>
+        <header>
+          <h3>Drawing Robot</h3>
+        </header>
+      </div>
     </div>
-</div>
-
-
-<div class="container container-left">
-    <div class="row">
-        <div class="col-md-3 hidden-xs">
-            <!-- <div class="sidebar well">
-My Portfolio
-</div> -->
-
-<div class="sidebar well">
-    <h1>My Portfolio</h1>
-    <ul>
-        
-          <li><a href="/2017/11/SelfLevelingGlider">Self-Leveling Glider - Controls Project</a></li>
-        
-          <li><a href="/2017/09/StateMachine">Ignition State Machine - Uottawa Rocketry</a></li>
-        
-          <li><a href="/2016/01/drawingRobot">Drawing Robot</a></li>
-        
-          <li><a href="/2012/03/First">First Post</a></li>
-        
-    </ul>
-</div>
-
-<div class="sidebar well">
-    <h1>My Interests</h1>
-    <ul>
-        
-          <li><a href="/interests/2014-01-25-drawings">Drawings</a></li>
-        
-          <li><a href="/interests/2018-02-03-poems">Poetry</a></li>
-        
-    </ul>
-</div>
-
-<div class="sidebar well">
-<h1>Links</h1>
-<ul>
-  <li><a href="https://github.com/omarHus">Github</a></li>
-  <li><a href="/cv.html">CV</a></li>
-</ul>
-
-</div>
-
-        </div>
-        <div class="col-md-9">
-            
-        </div>
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        <a href="#" class="image fit"><img src="/assets/images/pic04.jpg" alt="rocket" /></a>
+        <header>
+          <h3>Ignition State Machine</h3>
+        </header>
+      </div>
+      <div class="item">
+        <a href="#" class="image fit"><img src="/assets/images/pic05.jpg" alt="Parachute folding Machine" /></a>
+        <header>
+          <h3>Parachute Folding Machine</h3>
+        </header>
+      </div>
     </div>
+  </div>
 </div>
+</section>
+<section id="about-me" class="shade-three">
+  <div class="container"><header>
+			<h2>About Me</h2></header><a href="#" class="image featured"><img src="assets/images/about.jpg" alt="" /></a>
 
-<!-- <div class="container-fluid">
-    <div class="row-fluid">
-        <div class="span12 footer navbar-inverse navbar-fixed-bottom">
-            <p class="copyright">&copy;2018 Omar Husain. Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="https://github.com/scotte/jekyll-clean">Scott Emmons</a>
-            under
-            <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</a></p>
-        </div>
+<p>I am a Mechanical Engineering Student at the University of Ottawa, Canada. Diverse, would be the best way to describe me. I am of Moroccan, Indian, and German descent, and I have lived in six countries. My educational background is equally diverse, before pursuing my current degree I received a B.A. in Philosophy from McGill University.</p>
+<p>The great polymaths of history are my idols, and as such, I strive to be excellent in many different activities. I am always engaged in learning new things. And I believe that having a diversity of perspective is essential to creating innovative solutions. Hoping to engage in engineering projects that will bring more integrity to our everyday lives. Interested particularly in aerospace, AI, and cutting edge technologies. I am actively looking for internship opportunities.</p>
+
+<h2>My Site</h2>
+<p>I am using this website as a portfolio to showcase my design projects. As well as to highlight some of my other interests and activities. Hopefully this will serve as an inspiration to my peers, and I will post a short tutorial on how to set up a site like this.
+</p>
+</div>
+</section>
+<section id="contact" class="shade-four">
+  <div class="container"><header>
+			<h2>Contact</h2></header><p>Elementum sem parturient nulla quam placerat viverra
+mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
+orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+
+<form method="post" action="https://formspree.io/omar.husain2@gmail.com">
+  <div class="row">
+    <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+    <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+    <div class="12u$">
+      <textarea name="message" placeholder="Message"></textarea>
     </div>
-</div> -->
+    <div class="12u$">
+      <input type="submit" value="Send Message" />
+    </div>
+  </div>
+</form>
+</div>
+</section>
+<section id="welcome-to-jekyll" class="shade-three">
+  <div class="container"><header>
+			<h2>Welcome to Jekyll!</h2></header><p>This Jekyll theme lets you build as many of these sections as you want. They live in the _sections folder in your project’s root directory. For some examples, see the <a href="https://github.com/chrisbobbe/jekyll-theme-prologue">GitHub repository</a>. Just be sure to add some <a href="https://jekyllrb.com/docs/frontmatter/">frontmatter</a> to each section.</p>
 
+<p>All sections have titles, which are listed in the site’s navigation menu. At the top of each section, the section’s title will render by default (e.g., Welcome to Jekyll!). If you want it to show something different (see Intro), add <strong>auto-header: none</strong> to your frontmatter, and add your text in a &lt;h2&gt; tag inside a &lt;header&gt; tag outside the frontmatter. You’ll want to give each section an <strong>order</strong> parameter, also in the frontmatter, or it won’t know where to put itself and will hide. Icons are from <a href="http://fontawesome.io/icons/">Font Awesome</a>.</p>
 
-
-
-
-
-</body>
+<p>You may notice that this section is written in Markdown – either Markdown or html works!</p>
+</div>
+</section>
+</div><!-- Footer -->
+<div id="footer">
+  
+  <!-- Copyright -->
+  <ul class="copyright">
+    
+      <li>&copy;Omar Jahan Ali Husain. All rights reserved.</li>
+    
+    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    <li>Jekyll integration: <a href="https://chrisbobbe.github.io/">Chris Bobbe</a></li>
+  </ul>
+  
+</div></body>
 </html>
-
