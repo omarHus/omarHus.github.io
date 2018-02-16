@@ -63,7 +63,6 @@ body {
 }
 
 .navbar-brand {
-    font-size: 260%;
+    font-size: 180%;
     color: #ffffff;
-    text-transform: uppercase;
 }
