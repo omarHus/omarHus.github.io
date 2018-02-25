@@ -10,6 +10,8 @@ cover-photo: "/assets/images/parachuteDesign.jpg"
 <!-- Parachute image will go here -->
 ![Parachute Machine](/assets/images/parachuteDesign.jpg){:class="image featured"}
 
+This Project is still a work in progress, and should be completed in the next few weeks (with CAD drawings and full results of the design)
+
 The mandate for this class project consists of designing a machine that can quickly and effectively fold parachutes in a reproducible manner. The machine must be able to fold an eight-panel, dome-shaped parachute without any human intervention other than start-up and shut-down. No programmable controllers can be used and a limit of three electric motors is allowed.
 
 The above figure is a rough sketch of the concept for this machine. It is similar to a photocopy machine which moves paper around using spinning shafts with rollers to push the paper along a predetermined path. It's nice to include a rough sketch of the idea, just to be able to compare with the finished project and to see how the design process is an iterative one.
