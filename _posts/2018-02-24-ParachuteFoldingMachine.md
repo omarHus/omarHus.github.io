@@ -19,3 +19,8 @@ The above figure is a rough sketch of the concept for this machine. It is simila
 The advantages of this design is that it uses one motor, with a gear transmission that allows for both the lateral and longitudinal folds of the parachute. Using bevel gears the lateral shafts can be engaged with the same motor. Another nice feature of this design is that it doesn't use complex parts to get the fold sequence correct, it instead, makes use of geometry to get all the folds.
 
 The basic function is that the parachute is pushed along by the rollers, and then hits an end-stop on a flat inclined plate at a certain distance. This distance for the first fold is half the length of the parachute, which means that when the parachute hits the end-stop, the chute will be forced down a second set of shafts and rollers located underneath, which will engage the fold.
+
+The following figure is a second iteration sketch with a little bit more embodiment, but still quite rough. Just gives a bit more of an idea of how the whole machine will work together without a lot of detail.
+
+<!-- Parachute image will go here -->
+![Parachute Machine](/assets/images/parachute2.jpg){:class="image featured"}
