@@ -37,31 +37,37 @@ Can they be, nothing less than discovery?
 Fantasies, what can they be?  
 {: style="text-align:center"}
 
-<center>Links to my published poems:</center>
-
-{: style="text-align:center"} 
-An Existential Love
-
-<a href="https://graphitepublications.com/poetry-an-existential-love/">
-
-<center><a href="https://graphitepublications.com/poetry-an-existential-love/"><img src="/assets/images/love.jpg" alt="Poem Picture" style="width:50%; height:50%"></a></center>
-<br>
+<center>Links to my Published Poems:</center>
 
 
-{: style="text-align:center"}
-Winter's Horrid Fate
+<table table-layout="auto">
+<tr>
+  <td align="center"><a href="https://graphitepublications.com/poetry-an-existential-love/">An Existential Love</a></td>
+  <td align="center"><a href="https://graphitepublications.com/poetry-winters-horrid-fate/">Winter's Horrid Fate</a></td>
+</tr>
+<tr>
+  <td align="center"><a href="https://graphitepublications.com/poetry-an-existential-love/"><img src="/assets/images/love.jpg" alt="Poem Picture" style="width:50%"></a></td>
+  <td align="center"><a href="https://graphitepublications.com/poetry-winters-horrid-fate/"><img src="/assets/images/WinterFate.jpg" alt="Poem Picture" style="width:50%"></a></td>
+</tr>
+</table>
 
-<center><a href="https://graphitepublications.com/poetry-winters-horrid-fate/"><img src="/assets/images/WinterFate.jpg" alt="Poem Picture" style="width:50%; height:50%"></a></center>
 
 <br>
 <center><h2>My Drawings</h2></center>
+<br>
+<table table-layout="auto">
+<tr>
+  <td align="center"><img src="/assets/images/portrait_Oct22.jpg" alt="Portrait" style="width:40%"></td>
+  <td align="center"><img src="/assets/images/guitar-2018.jpeg" alt="Guitar" style="width:40%"></td>
+  <td align="center"><img src="/assets/images/D2_mimi.jpeg" alt="D2" style="width:65%"></td>
+</tr>
+<tr>
+  <td align="center"><img src="/assets/images/D3.jpeg" alt="D3" style="width:40%"></td>
+  <td align="center"><img src="/assets/images/D1_sailor.jpeg" alt="D1" style="width:40%"></td>
+  <td align="center"><img src="/assets/images/D4.jpeg" alt="D4" style="width:65%"></td>
+</tr>
+</table>
 
-<center>
-<img src="/assets/images/D1_sailor.jpeg" alt="D1" style="width:75%">
-<img src="/assets/images/D2_mimi.jpeg" alt="D2" style="width:75%">
-<img src="/assets/images/D3.jpeg" alt="D3" style="width:75%">
-<img src="/assets/images/D4.jpeg" alt="D4" style="width:75%">
-</center>
 
 <br>
 <center><h2>Flying</h2>
