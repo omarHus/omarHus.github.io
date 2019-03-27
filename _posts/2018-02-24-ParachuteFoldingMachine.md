@@ -8,7 +8,8 @@ cover-photo: "/assets/images/parachuteDesign.jpg"
 ---
 
 <!-- Parachute image will go here -->
-![Parachute Machine](/assets/images/parachuteDesign.jpg){:class="image featured"}
+<!-- ![Parachute Machine](/assets/images/parachuteDesign.jpg){:class="image featured"} -->
+<center><img src="/assets/images/foldingMachine.png" alt="Portrait" style="width:60%"></center>
 
 This Project is still a work in progress, and should be completed in the next few weeks (with CAD drawings and full results of the design)
 
@@ -23,4 +24,4 @@ The basic function is that the parachute is pushed along by the rollers, and the
 The following figure is a second iteration sketch with a little bit more embodiment, but still quite rough. Just gives a bit more of an idea of how the whole machine will work together without a lot of detail.
 
 <!-- Parachute image will go here -->
-![Parachute Machine](/assets/images/parachute2.jpg){:class="image featured"}
+<center><img src="/assets/images/engSketch.png" alt="Portrait" style="width:60%"></center>

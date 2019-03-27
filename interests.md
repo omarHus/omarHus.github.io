@@ -53,7 +53,7 @@ Fantasies, what can they be?
 
 
 <br>
-<center><h2>My Drawings</h2></center>
+<center><a href="Drawings.html" id="{{- _slug -}}-link"><h2>My Drawings</h2></a></center>
 <br>
 <table table-layout="auto">
 <tr>
