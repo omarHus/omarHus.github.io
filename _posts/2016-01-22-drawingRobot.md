@@ -4,7 +4,7 @@ title: "Drawing Robot"
 date: "2016-01-22"
 comments: true
 youtubeId: "Ne4NzHLIQBI"
-cover-photo: "/assets/images/rachelCarson.png"
+cover-photo: "/assets/images/axidraw.jpeg"
 hide: true
 ---
 <!-- ![Plotter](/assets/images/axidraw.jpeg){:class="image featured"} -->

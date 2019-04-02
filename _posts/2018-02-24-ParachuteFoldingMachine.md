@@ -4,7 +4,7 @@ title: "Parachute Folding Machine - Mechanical Design"
 date: 2018-02-24
 comments: true
 youtubeId: 
-cover-photo: "/assets/images/parachuteDesign.jpg"
+cover-photo: "/assets/images/foldingMachine.png"
 ---
 
 <!-- Parachute image will go here -->
