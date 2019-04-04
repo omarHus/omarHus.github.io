@@ -8,9 +8,13 @@ cover-photo: "/assets/images/worm_gear.png"
 ---
 
 <!-- image will go here -->
-<center><img src="/assets/images/worm_gear.png" alt="Portrait" style="width:30%"></center>
+<center><img src="/assets/images/worm_gear.png" alt="Portrait" style="width:40%"></center>
 
-The task for this project was to design a speed reducer given certain operational parameters. The focus was on making a simple, cheap, and easily manufactured design. A full analysis of the stresses on the gears, bearings and shafts was conducted, in order to design a gear box that met the given criteria.
+This gearbox design was a group project with Dave Clarke and Humam Shwaikh at the University of Ottawa. Dave Clarke created the beautiful computer aided design (CAD) model above.
+
+The task for this project was to design a speed reducer/gearbox given certain operational requirements. A gearbox is a means of transmitting the rotational power of a motor from one location to another with possibly varying speeds and torques.
+
+The focus was on making a simple, cheap, and compact gearbox. A full analysis of the stresses on the gears, bearings and shafts was conducted, in order to design a gear box that met the given criteria.
 
 The following table shows the criteria given for this particular gear box.
 
@@ -38,5 +42,4 @@ Since a gear box is subject to repeated cycles, the main mode of failure to be e
 <center><img src="/assets/images/goodman.png" alt="Portrait" style="width:40%"></center>
 <center><h3>Modified Goodman Criterion</h3></center>
 
-The main requirement is that the tortional deflection or angle of twist of the shaft not exceed 0.08 &deg;/ft. By increasing the diameter of the shaft the moment of inertia is increased, which increases the resistance to twisting induced by the tortional loads on the shaft.
-
+The main requirement is that the tortional deflection or angle of twist of the shaft not exceed 0.08 &deg;/ft. By increasing the diameter of the shaft the moment of inertia is increased, which increases the resistance to twisting induced by the tortional loads on the shaft. Basically, having a chubbier shaft prevents the shaft from twisting too much and ultimately failing.
