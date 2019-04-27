@@ -4,11 +4,31 @@ title: "Gear Box - Mechanical Design"
 date: 2019-03-31
 comments: true
 youtubeId: 
-cover-photo: "/assets/images/worm_gear.png"
+cover-photo: "/assets/images/3Dgearbox.jpg"
 ---
 
 <!-- image will go here -->
-<center><img src="/assets/images/worm_gear.png" alt="Portrait" style="width:40%"></center>
+<div class="row">
+    <div class="4u 12u$(mobile)">
+        <div class="item">
+            <img class ="image fit" src="{{ '/assets/images/worm_gear.png' | relative_url }}" alt="" />
+                <header>
+                <h3>Gear Box CAD Model</h3>
+                </header>
+        </div>
+    </div>
+    <div class="4u 12u$(mobile)">
+        <div class="item">
+            <img class="image fit" src="{{ 'assets/images/3Dgearbox.jpg' | relative_url }}" alt="3d Gearbox" />
+            <header>
+                <h3>3D Print of the Gearbox</h3>
+            </header>
+        </div>
+    </div>
+</div>
+
+
+<!-- <center><img src="/assets/images/3Dgearbox.jpg" alt="Portrait" style="width:30%"><img src="/assets/images/worm_gear.png" alt="Portrait" style="width:30%"></center> -->
 
 This gearbox design was a group project with Dave Clarke and Humam Shwaikh at the University of Ottawa. Dave Clarke created the beautiful computer aided design (CAD) model above.
 
