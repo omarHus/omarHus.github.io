@@ -5,6 +5,8 @@ date: 2019-03-31
 comments: true
 youtubeId: 
 cover-photo: "/assets/images/3Dgearbox.jpg"
+photo: "/assets/images/3Dgearbox.jpg"
+photo-alt: "/assets/images/3Dgearbox.jpg"
 ---
 
 <!-- image will go here -->

@@ -4,6 +4,8 @@ title: "Ignition State Machine - Uottawa Rocketry"
 date: 2017-09-30
 comments: true
 cover-photo: "/assets/images/rocket.jpg"
+photo: "/assets/images/rocket.jpg"
+photo-alt: "/assets/images/rocket.jpg"
 ---
 
 For two semesters I joined the uOttawa Rocketry team and I was able to participate in various aspects of the rocket's design. Our goal was to build a hybrid rocket (liquid oxidizer, solid fuel) that would achieve a target apogee of 10,000ft, as part of the Intercollegiate Rocket Engineering Competition.

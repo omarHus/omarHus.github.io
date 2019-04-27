@@ -5,6 +5,8 @@ date: 2019-04-27
 comments: true
 youtubeId: 
 cover-photo: "/assets/images/naca_airfoil.png"
+photo: "/assets/images/naca_airfoil.png"
+photo-alt: "/assets/images/naca_airfoil.png"
 ---
 
 <!-- image will go here -->
