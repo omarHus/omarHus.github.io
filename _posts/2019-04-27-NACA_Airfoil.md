@@ -27,7 +27,9 @@ For my computational Fluid Dynamics class the final project was to solve a set o
 </div>
 </center>
 
-In the future, as airplane technology continues to be developped, these types of speeds will be possible and so it is important to model this flow. The model is based on the Compressible Euler Equations, which are balance laws based on mass, momentum, and energy conservation for inviscid (no viscosity) flow.
+In the future, as airplane technology continues to be developped, these types of speeds will be possible and so it is important to model this flow. At a mach speed of 10 (10x the speed of sound) a flight between Montreal and Paris would take less than half an hour. 
+
+The model for this simulation is based on the Compressible Euler Equations, which are balance laws based on mass, momentum, and energy conservation for inviscid (no viscosity) flow.
 
 <!-- image of Compr. Euler Equations -->
 <center>
@@ -41,13 +43,13 @@ In the future, as airplane technology continues to be developped, these types of
 </div>
 </center>
 
-To create the computational mdoel, the cross-sectional shape of the airfoil has to be determined and the space around it has to be divided up into little cells. In each of these little cells, the physics of the flow will be solved. The computer model is told to run for a given amount of time and computes the physics of the flow at a discrete number of time steps. This allows us to show an animation of how the flow develops in time.
+To create the computational model, the cross-sectional shape of the airfoil has to be determined and the space around it has to be divided up into little cells. In each of these little cells, the physics of the flow will be solved. The computer model is told to run for a given amount of time and computes the physics of the flow at a discrete number of time steps. This allows us to show an animation of how the flow develops in time.
 
 <!-- Animation Goes Here -->
 ![Animation](/assets/images/video_zero.gif){:class="image fit"}
 
 
-At mach speeds greater than 1 (faster than the speed of sound) shock waves are introduced. These shock waves are small areas where the properties of the flow jump drastically to different values. The flow substantially decreases in velocity after the shock wave and increases in presure, as can be seen in the animation. In the animation above, the shock wave is the thin white contour over which the pressure field changes from blue to red.
+At mach speeds greater than 1 (faster than the speed of sound) shock waves are introduced. These shock waves are small areas where the properties of the flow jump drastically to different values. The flow substantially decreases in velocity after the shock wave and increases in pressure, as can be seen in the animation. In the animation above, the shock wave is the thin white contour over which the pressure field changes from blue to red.
 
 The lift produced by an airfoil is based on the pressure difference from the top surface and the bottom surface. If the airfoil is tilted upwards, the pressure on the bottom surface is greater than the pressure on the top surface and the airfoil produces lift.
 
