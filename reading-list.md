@@ -9,6 +9,8 @@ order: 4
 I love books! Here are some of my favourites:
 
 <ul>
+    <li>The Next 100 Years - George Friedman</li>
+        <p><img src="/assets/images/next100years.png" alt="next 100 years" style="width:20%;float: left;margin-right:3%;padding:1%">George Friedman is a geopolitical forecaster, that is, he predicts the course of international affairs based on a knowledge of history and macro geopolitical forces. In his book The Next 100 Years he predicts the major geopolitical events of the 21st century. He explains which countries will become great powers and he describes the wars that he believes will occur between them. His analysis looks at the way technology will impact and change the types of wars that are fought. The major premise for his book is that no matter who is in power in each respective country, there are certain geopolitical forces that ensure that certain events will take place. Definitely recommend this book for anyone that is a fan of history and of international political strategies and affairs.</p>
     <li>Siddhartha - Herman Hesse</li>
         <p><img src="/assets/images/siddhartha.jpg" alt="sid" style="width:20%;float: left;margin-right:3%;padding:1%">Siddhartha is a story of self-discovery. I have read this book multiple times and I always come away with something different and beautiful. A couple concepts have really stayed with me. For one, Siddhartha reminds us not to be afraid of getting lost in the chaos of life in order to find ourselves. He challenges us to let go of our vanity, pride, and any reputation we hold onto. However, the story of Siddhartha shows us that we will fail to do so, and that in failing to do so, we will find the key to our self-discovery.</p>
     <li>Ishmael - Daniel Quinn</li>

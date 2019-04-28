@@ -41,13 +41,13 @@ In the future, as airplane technology continues to be developped, these types of
 </div>
 </center>
 
-To create the computational mdoel, the shape of the airfoil has to be determined and the space around it has to be divided up into little cells. In each of these little cells, the physics of the flow will be solved. The computer model is told to run for a given amount of time and computes the physics of the flow at a discrete number of time steps. This allows us to show an animation of how the flow develops in time.
+To create the computational mdoel, the cross-sectional shape of the airfoil has to be determined and the space around it has to be divided up into little cells. In each of these little cells, the physics of the flow will be solved. The computer model is told to run for a given amount of time and computes the physics of the flow at a discrete number of time steps. This allows us to show an animation of how the flow develops in time.
 
 <!-- Animation Goes Here -->
 ![Animation](/assets/images/video_zero.gif){:class="image fit"}
 
 
-At mach speeds greater than 1 (faster than the speed of sound) shock waves are introduced. These shock waves are small areas where the properties of the flow jump drastically to different values. The flow substantially decreases in velocity after the shock wave and increases in presure, as can be seen in the animation.
+At mach speeds greater than 1 (faster than the speed of sound) shock waves are introduced. These shock waves are small areas where the properties of the flow jump drastically to different values. The flow substantially decreases in velocity after the shock wave and increases in presure, as can be seen in the animation. In the animation above, the shock wave is the thin contour over which the pressure field changes from blue to red.
 
 The lift produced by an airfoil is based on the pressure difference from the top surface and the bottom surface. If the airfoil is tilted upwards, the pressure on the bottom surface is greater than the pressure on the top surface and the airfoil produces lift.
 
