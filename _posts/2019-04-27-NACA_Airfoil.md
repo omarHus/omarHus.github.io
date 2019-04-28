@@ -47,7 +47,7 @@ To create the computational mdoel, the cross-sectional shape of the airfoil has 
 ![Animation](/assets/images/video_zero.gif){:class="image fit"}
 
 
-At mach speeds greater than 1 (faster than the speed of sound) shock waves are introduced. These shock waves are small areas where the properties of the flow jump drastically to different values. The flow substantially decreases in velocity after the shock wave and increases in presure, as can be seen in the animation. In the animation above, the shock wave is the thin contour over which the pressure field changes from blue to red.
+At mach speeds greater than 1 (faster than the speed of sound) shock waves are introduced. These shock waves are small areas where the properties of the flow jump drastically to different values. The flow substantially decreases in velocity after the shock wave and increases in presure, as can be seen in the animation. In the animation above, the shock wave is the thin white contour over which the pressure field changes from blue to red.
 
 The lift produced by an airfoil is based on the pressure difference from the top surface and the bottom surface. If the airfoil is tilted upwards, the pressure on the bottom surface is greater than the pressure on the top surface and the airfoil produces lift.
 
@@ -62,6 +62,10 @@ The lift produced by an airfoil is based on the pressure difference from the top
     </div>
 </div>
 </center>
-<!-- <center><img src="/assets/images/10pressure.png" alt="Portrait" class="image fit"></center> -->
 
-In this image, the white part in the middle is the airfoil and the colour map gives an indication of the pressure field of the flow around the airfoil. 
+In this image, the white part in the middle is the airfoil and the colour map gives an indication of the pressure field of the flow around the airfoil. The following animation shows how the pressure develops when the airfoil has an angle of attack greater than zero (when the wing is tilted upwards).
+
+<!-- Animation Goes Here -->
+![Animation](/assets/images/video_ten.gif){:class="image fit"}
+
+This project was initially developed in Matlab, but I wanted to have a higher resolution so I wrote it in C++ with some of the functions already given by my professor.
