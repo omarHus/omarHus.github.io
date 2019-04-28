@@ -44,7 +44,7 @@ In the future, as airplane technology continues to be developped, these types of
 To create the computational mdoel, the shape of the airfoil has to be determined and the space around it has to be divided up into little cells. In each of these little cells, the physics of the flow will be solved. The computer model is told to run for a given amount of time and computes the physics of the flow at a discrete number of time steps. This allows us to show an animation of how the flow develops in time.
 
 <!-- Animation Goes Here -->
-![Animation](/assets/images/zeropressure.gif){:class="image fit"}
+![Animation](/assets/images/video_zero.gif){:class="image fit"}
 
 
 At mach speeds greater than 1 (faster than the speed of sound) shock waves are introduced. These shock waves are small areas where the properties of the flow jump drastically to different values. The flow substantially decreases in velocity after the shock wave and increases in presure, as can be seen in the animation.
