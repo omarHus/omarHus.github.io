@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Simulation of Flow Over NACA 0015 Airfoil"
+author: "Omar Husain"
 date: 2019-04-27
 comments: true
 youtubeId: 

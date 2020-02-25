@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Self-Leveling Glider - Controls Project"
+author: "Omar Husain"
 date: 2017-11-01
 comments: true
 youtubeId: "f1AE9T4lfGI"

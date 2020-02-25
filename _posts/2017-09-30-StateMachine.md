@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Ignition State Machine - Uottawa Rocketry"
+author: "Omar Husain"
 date: 2017-09-30
 comments: true
 cover-photo: "/assets/images/rocket.jpg"

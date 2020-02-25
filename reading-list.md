@@ -1,5 +1,6 @@
 ---
 title: Reading List
+author: "Omar Husain"
 subtitle:
 layout: "page"
 icon: fa-book

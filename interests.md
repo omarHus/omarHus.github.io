@@ -1,5 +1,6 @@
 ---
 title: Interests
+author: "Omar Husain"
 subtitle:
 layout: "page"
 icon: fa-book

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Gear Box - Mechanical Design"
+author: "Omar Husain"
 date: 2019-03-31
 comments: true
 youtubeId: 
