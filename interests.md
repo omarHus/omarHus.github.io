@@ -64,7 +64,7 @@ Poetry is not something that I pursue often, but it comes to me in flashes of in
       <div class="item">
         <img class="image fit" src="{{ 'assets/images/D1_sailor.jpeg' | relative_url }}" alt="Omar Husain Drawing sailor" />
         <header>
-          <h3>Sailor</h3>
+          <h3>Sailor (graphite)</h3>
         </header>
       </div>
       <div class="item">
