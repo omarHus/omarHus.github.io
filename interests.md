@@ -34,27 +34,27 @@ Poetry is not something that I pursue often, but it comes to me in flashes of in
   <div class="row">
     <div class="4u 12u$(mobile)">
       <div class="item">
-          <img class="image fit" src="{{ '/assets/images/portrait_Oct22.jpg' | relative_url }}" alt="glider"/>
+          <img class="image fit" src="{{ '/assets/images/maman.jpg' | relative_url }}" alt="Omar Husain drawing Maman"/>
           <header>
-            <h3>Portrait</h3>
+            <h3>maman</h3>
           </header>
       </div>
       <div class="item">
-        <img class="image fit" src="{{ 'assets/images/guitar-2018.jpeg' | relative_url }}" alt="glider" />
+        <img class="image fit" src="{{ 'assets/images/ali.jpg' | relative_url }}" alt="Omar Husain drawing Ali" />
         <header>
-          <h3>Guitar</h3>
+          <h3>Ali</h3>
         </header>
       </div>
     </div>  
     <div class="4u 12u$(mobile)">
       <div class="item">
-        <img class="image fit" src="{{ 'assets/images/D2_mimi.jpeg' | relative_url }}" alt="rocket" />
+        <img class="image fit" src="{{ 'assets/images/beauty.jpg' | relative_url }}" alt="Omar Husain drawing Beauty" />
         <header>
-          <h3>Mimi</h3>
+          <h3>Beauty</h3>
         </header>
       </div>
       <div class="item">
-        <img class="image fit" src="{{ 'assets/images/D3.jpeg' | relative_url }}" alt="axidraw" />
+        <img class="image fit" src="{{ 'assets/images/poseidon.jpg' | relative_url }}" alt="Omar Husain drawing poseidon" />
         <header>
           <h3>Kitchen</h3>
         </header>
@@ -62,13 +62,13 @@ Poetry is not something that I pursue often, but it comes to me in flashes of in
     </div>
     <div class="4u 12u$(mobile)">
       <div class="item">
-        <img class="image fit" src="{{ 'assets/images/D1_sailor.jpeg' | relative_url }}" alt="Parachute folding Machine" />
+        <img class="image fit" src="{{ 'assets/images/D1_sailor.jpeg' | relative_url }}" alt="Omar Husain Drawing sailor" />
         <header>
           <h3>Sailor</h3>
         </header>
       </div>
       <div class="item">
-        <img class="image fit" src="{{ 'assets/images/D4.jpeg' | relative_url }}" alt="Parachute folding Machine" />
+        <img class="image fit" src="{{ 'assets/images/anatomy_sketch.jpg' | relative_url }}" alt="Omar Husain drawing anatomy sketch" />
         <header>
           <h3>Hand</h3>
         </header>
@@ -76,7 +76,7 @@ Poetry is not something that I pursue often, but it comes to me in flashes of in
     </div>
   </div>
 
-Until the age of 21 I did not think I had the ability to draw. My mother is an artist and she introduced me to the book Drawing On the Right Side of the Brain by Betty Edwards. This book fascinated me because it explained how drawing uses the right side of the brain, the non-analytic side. The book taught me techniques on how to draw but also showed me how to view objects in a way that would allow me to draw them. Using the right side of the brain, an artist looks at shapes and negative space and draws that, instead of trying to use words to describe what he/she sees. Ever since I read that book I have continued to draw and to cultivate that side of my brain. I am grateful to my mother for encouraging me along this path.
+Until the age of 21 I did not think I had the ability to draw. My mother was an artist and she introduced me to the book Drawing On the Right Side of the Brain by Betty Edwards. This book fascinated me because it explained how drawing uses the right side of the brain, the non-analytic side. The book taught me techniques on how to draw but also showed me how to view objects in a way that would allow me to draw them. Using the right side of the brain, an artist looks at shapes and negative space and draws that, instead of trying to use words to describe what he/she sees. Ever since I read that book I have continued to draw and to cultivate that side of my brain. I am grateful to my mother for encouraging me along this path.
 
 <br>
 <center><h2>Flying</h2>
