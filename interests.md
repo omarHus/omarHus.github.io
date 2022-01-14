@@ -56,7 +56,7 @@ Poetry is not something that I pursue often, but it comes to me in flashes of in
       <div class="item">
         <img class="image fit" src="{{ 'assets/images/poseidon.jpg' | relative_url }}" alt="Omar Husain drawing poseidon" />
         <header>
-          <h3>Kitchen</h3>
+          <h3>Poseidon</h3>
         </header>
       </div>
     </div>
@@ -70,7 +70,7 @@ Poetry is not something that I pursue often, but it comes to me in flashes of in
       <div class="item">
         <img class="image fit" src="{{ 'assets/images/anatomy_sketch.jpg' | relative_url }}" alt="Omar Husain drawing anatomy sketch" />
         <header>
-          <h3>Hand</h3>
+          <h3>Anatomy sketch</h3>
         </header>
       </div>
     </div>
