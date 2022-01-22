@@ -7,27 +7,6 @@ icon: fa-book
 order: 3
 ---
 
-<center><h2>My Poems</h2></center>
-
-<center>My Latest Poem</center>
-<center><a href="poems.html" id="{{- _slug -}}-link">Fantasies What Can They Be - Feb. 3, 2018</a></center>
-<br>
-
-<center>Links to my Published Poems:</center>
-<table table-layout="auto">
-<tr>
-  <td align="center"><a href="https://graphitepublications.com/poetry-an-existential-love/">An Existential Love</a></td>
-  <td align="center"><a href="https://graphitepublications.com/poetry-winters-horrid-fate/">Winter's Horrid Fate</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="https://graphitepublications.com/poetry-an-existential-love/"><img src="/assets/images/love.jpg" alt="Poem Picture" style="width:50%"></a></td>
-  <td align="center"><a href="https://graphitepublications.com/poetry-winters-horrid-fate/"><img src="/assets/images/WinterFate.jpg" alt="Poem Picture" style="width:50%"></a></td>
-</tr>
-</table>
-
-Poetry is not something that I pursue often, but it comes to me in flashes of inspiration every once in a while. Nevertheless, I really enjoy it. If you like scary stories check out Edgar Allen Poe's poetry, if you like rhythmic and linguistic wizardry check out any Shakespearian Sonnet (my favourite is sonnet 116). If you are kinda funky and want to get your mind blown read anything by E.E. Cummings ("One's Not Half Two" is a good place to start).
-
-<br>
 <center><a href="Drawings.html" id="{{- _slug -}}-link"><h2>My Drawings</h2></a></center>
 <br>
 
@@ -77,6 +56,27 @@ Poetry is not something that I pursue often, but it comes to me in flashes of in
   </div>
 
 Until the age of 21 I did not think I had the ability to draw. My mother was an artist and she introduced me to the book Drawing On the Right Side of the Brain by Betty Edwards. This book fascinated me because it explained how drawing uses the right side of the brain, the non-analytic side. The book taught me techniques on how to draw but also showed me how to view objects in a way that would allow me to draw them. Using the right side of the brain, an artist looks at shapes and negative space and draws that, instead of trying to use words to describe what he/she sees. Ever since I read that book I have continued to draw and to cultivate that side of my brain. I am grateful to my mother for encouraging me along this path.
+<br>
+
+<center><h2>My Poems</h2></center>
+
+<center>My Latest Poem</center>
+<center><a href="poems.html" id="{{- _slug -}}-link">Fantasies What Can They Be - Feb. 3, 2018</a></center>
+<br>
+
+<center>Links to my Published Poems:</center>
+<table table-layout="auto">
+<tr>
+  <td align="center"><a href="https://graphitepublications.com/poetry-an-existential-love/">An Existential Love</a></td>
+  <td align="center"><a href="https://graphitepublications.com/poetry-winters-horrid-fate/">Winter's Horrid Fate</a></td>
+</tr>
+<tr>
+  <td align="center"><a href="https://graphitepublications.com/poetry-an-existential-love/"><img src="/assets/images/love.jpg" alt="Poem Picture" style="width:50%"></a></td>
+  <td align="center"><a href="https://graphitepublications.com/poetry-winters-horrid-fate/"><img src="/assets/images/WinterFate.jpg" alt="Poem Picture" style="width:50%"></a></td>
+</tr>
+</table>
+
+Poetry is not something that I pursue often, but it comes to me in flashes of inspiration every once in a while. Nevertheless, I really enjoy it. If you like scary stories check out Edgar Allen Poe's poetry, if you like rhythmic and linguistic wizardry check out any Shakespearian Sonnet (my favourite is sonnet 116). If you are kinda funky and want to get your mind blown read anything by E.E. Cummings ("One's Not Half Two" is a good place to start).
 
 <br>
 <center><h2>Flying</h2>
