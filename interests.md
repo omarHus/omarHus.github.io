@@ -64,15 +64,15 @@ Until the age of 21 I did not think I had the ability to draw. My mother was an 
 <center><a href="poems.html" id="{{- _slug -}}-link">Fantasies What Can They Be - Feb. 3, 2018</a></center>
 <br>
 
-<center>Links to my Published Poems:</center>
+<center>Published Poems:</center>
 <table table-layout="auto">
 <tr>
-  <td align="center"><a href="https://graphitepublications.com/poetry-an-existential-love/">An Existential Love</a></td>
-  <td align="center"><a href="https://graphitepublications.com/poetry-winters-horrid-fate/">Winter's Horrid Fate</a></td>
+  <td align="center"><img src="/assets/images/an_exist_love.png" alt="An Existential Love - Omar Husain" style="width:50%">An Existential Love</a></td>
+  <!-- <td align="center"><a href="https://graphitepublications.com/poetry-winters-horrid-fate/">Winter's Horrid Fate</a></td> -->
 </tr>
 <tr>
   <td align="center"><a href="https://graphitepublications.com/poetry-an-existential-love/"><img src="/assets/images/love.jpg" alt="Poem Picture" style="width:50%"></a></td>
-  <td align="center"><a href="https://graphitepublications.com/poetry-winters-horrid-fate/"><img src="/assets/images/WinterFate.jpg" alt="Poem Picture" style="width:50%"></a></td>
+  <!-- <td align="center"><a href="https://graphitepublications.com/poetry-winters-horrid-fate/"><img src="/assets/images/WinterFate.jpg" alt="Poem Picture" style="width:50%"></a></td> -->
 </tr>
 </table>
 
