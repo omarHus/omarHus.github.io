@@ -5,9 +5,9 @@ author: "Omar Husain"
 date: 2022-01-08
 comments: true
 youtubeId: 
-cover-photo: "/assets/images/beats.png"
-photo: "/assets/images/beats.png"
-photo-alt: "/assets/images/beats.png"
+cover-photo: "/assets/images/beats.jpg"
+photo: "/assets/images/beats.jpg"
+photo-alt: "/assets/images/beats.jpg"
 ---
 
 This is not technically a design project, but it's something that made me stop and realize how much I've learned in the last year.
