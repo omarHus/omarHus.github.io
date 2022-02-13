@@ -5,9 +5,9 @@ author: "Omar Husain"
 date: 2021-04-30
 comments: true
 youtubeId: 
-cover-photo: "/assets/images/ventPoster.png"
-photo: "/assets/images/ventPoster.png"
-photo-alt: "/assets/images/ventPoster.png"
+cover-photo: "/assets/images/ventModel.png"
+photo: "/assets/images/ventModel.png"
+photo-alt: "/assets/images/ventModel.png"
 ---
 
 In the face of the COVID-19 pandemic our team of 6 engineers and 1 doctor designed a prototype of a  ventilator solution that could potentially DOUBLE the number of patients who have access to ventilation. I am so proud of this team and the work we did in such a short time.
@@ -17,7 +17,7 @@ The idea is to split a traditional ventilator into two or more circuits so that 
 <center>
 <div class="4u 12u$(mobile)">
     <div class="item">
-        <img class="image fit" src="{{ '/assets/images/ventModel.png' | relative_url }}" alt="" />
+        <img class="image fit" src="{{ '/assets/images/ventPoster.png' | relative_url }}" alt="" />
             <header>
             <h3>Prototype Smart Ventilator Splitter</h3>
             </header>
