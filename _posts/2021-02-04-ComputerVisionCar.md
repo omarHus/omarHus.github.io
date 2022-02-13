@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Repairing Beats Headphones"
+title: "Computer Vision Car Speed Challenge"
 author: "Omar Husain"
 date: 2021-02-04
 comments: true
